@@ -4,7 +4,9 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import ContactPage from "./pages/ContactPage";
 import Header from "./components/Header";
-
+/////////////
+//////
+/////Add Link where there is anchor tag
 function App() {
   return (
     <div className='App'>

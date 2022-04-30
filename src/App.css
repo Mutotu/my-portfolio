@@ -338,3 +338,18 @@ textarea {
 .resume-footer a:hover,
 .contact-footer a:hover {
 }
+
+.summary-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.development-img {
+  box-sizing: border-box;
+} */
