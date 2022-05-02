@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const AboutMe = () => {
-  const navigation = useNavigate();
   return (
     <div className='about' id='about'>
       <div className='container-fluid'>

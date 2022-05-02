@@ -203,10 +203,27 @@ html {
   background-color: #59585d;
 
   color: white;
+  padding: 20px;
+  text-align: center;
+}
+.projects > div {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.projects-header {
+  display: flex;
+  padding: 30px 6%;
+  width: 100%;
+}
+.projects-header > h1 {
+  margin-left: 400px;
 }
 
 .projects-header-quote {
   margin-bottom: 20px;
+  margin-left: 400px;
 }
 .projects h1,
 .projects h3 {
@@ -223,20 +240,34 @@ html {
 /*.luvtalk-project, .personal-website-project, .strike-zone-project, .resume {border: 3px solid white;}*/
 .luvtalk-project {
   background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-    url(./images/bboytimeline.jpg);
+    url(./images/luvtalklogo.png);
   background-position: center center;
+  height: 350px;
+  width: 350px;
+}
+.luvtalk-project > h3 {
+  margin-top: 80px;
 }
 
 .personal-website-project {
   background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
     url(./images/logo.svg);
   background-position: center center;
+  height: 350px;
+  width: 350px;
 }
-
+.personal-website-project > h3 {
+  margin-top: 80px;
+}
 .strike-zone-project {
   background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
     url(./images/mlbproject.png);
   background-position: center center;
+  height: 350px;
+  width: 350px;
+}
+.strike-zone-project > h3 {
+  margin-top: 80px;
 }
 
 .resume {
@@ -260,6 +291,7 @@ html {
   background-color: #3a3a3a;
   padding: 50px 150px;
   color: white;
+  display: flex;
 }
 .contact input,
 textarea {
@@ -305,8 +337,14 @@ textarea {
   color: white;
   padding: 50px 0;
   font-family: "Roboto", Helvetica, serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
 }
 
+.footer > div > a {
+  margin-left: 100px;
+}
 .footer h3,
 .footer h4 {
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -315,7 +353,7 @@ textarea {
 .linkedin,
 .pinterest,
 .email-icon {
-  padding: 31%;
+  padding: 0%;
 }
 .footer img {
   background-color: #8a8a8a;

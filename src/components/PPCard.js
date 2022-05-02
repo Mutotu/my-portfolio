@@ -1,5 +1,3 @@
-import { Row, Col } from "react-bootstrap";
-
 const PPCard = (props) => {
   return (
     <div className={`${props.url}`}>

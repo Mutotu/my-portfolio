@@ -1,8 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Hello = () => {
-  const navigation = useNavigate();
-
   return (
     <div className='main'>
       <div className='container-fluid'>
@@ -19,13 +15,13 @@ const Hello = () => {
         <div className='row text-center'>
           <div className='banner-buttons'>
             <div className='col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5'>
-              <a class='btn btn-default btn-border' href='#about'>
+              <a className='btn btn-default btn-border' href='#about'>
                 Info
               </a>
             </div>
 
             <div className='col-sm-1 col-md-1'>
-              <a class='btn btn-default btn-border' href='#projects'>
+              <a className='btn btn-default btn-border' href='#projects'>
                 Portfolio
               </a>
             </div>

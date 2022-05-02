@@ -1,4 +1,3 @@
-import { Col, Row, Container } from "react-bootstrap";
 import SummaryCard from "./SummaryCard";
 import developerSvg from "../images/developerdesign.svg";
 import responsiveSvg from "../images/responsivedesign.svg";
@@ -31,16 +30,14 @@ const Summary = () => {
 
   return (
     <div className='summary'>
-      <Container fluid>
-        {features.map((feature, id) => (
-          <SummaryCard
-            key={id}
-            img={feature.img}
-            title={feature.title}
-            text={feature.text}
-          />
-        ))}
-      </Container>
+      {features.map((feature, id) => (
+        <SummaryCard
+          key={id}
+          img={feature.img}
+          title={feature.title}
+          text={feature.text}
+        />
+      ))}
     </div>
   );
 };

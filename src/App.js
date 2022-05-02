@@ -4,9 +4,8 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import ContactPage from "./pages/ContactPage";
 import Header from "./components/Header";
-/////////////
-//////
-/////Add Link where there is anchor tag
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div className='App'>
@@ -16,6 +15,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<ContactPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
