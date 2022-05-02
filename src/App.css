@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 /* Navigation */
 .navigation {
@@ -16,9 +16,12 @@ html {
 
 .logo img {
   max-width: 90px;
+  margin-left: -1150px;
+  padding-top: 0px;
 }
 .primary-nav {
-  padding-right: 50px;
+  padding-left: 750px;
+  margin-top: -70px;
 }
 .primary-nav li {
   display: inline-block;
@@ -70,7 +73,7 @@ html {
 .projects .btn-border {
   background-color: transparent;
   width: 100%;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   color: white;
   font-family: "Roboto", Helvetica, serif;
   font-size: 16pt;
@@ -117,7 +120,12 @@ html {
 .about-general-description,
 .about-statistic-description {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+}
+
+.about-statistic-description {
+  padding-left: 200px;
+  text-align: left;
 }
 .about-general-description h2,
 .about-statistic-description h2 {
@@ -170,24 +178,30 @@ html {
   background-attachment: fixed;
   background-attachment: center center;
   color: white;
-  padding: 60px 30px;
+  padding: 30px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .summary .row {
-  padding: 50px 6%;
-  width: 100%;
+  padding: 0px 6%;
+  width: 50%;
+  text-align: left;
 }
 
 .summary h3 {
   font-family: "Source Sans Pro", Arial, sans-serif;
+  text-align: left;
 }
 .summary p {
   font-family: "Roboto", Helvetica, serif;
+  text-align: left;
 }
 
 .projects {
   background-color: #59585d;
-  padding: 50px;
+
   color: white;
 }
 
@@ -209,7 +223,7 @@ html {
 /*.luvtalk-project, .personal-website-project, .strike-zone-project, .resume {border: 3px solid white;}*/
 .luvtalk-project {
   background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-    url(./images/luvtalklogo.png);
+    url(./images/bboytimeline.jpg);
   background-position: center center;
 }
 
@@ -340,8 +354,8 @@ textarea {
 }
 
 .summary-block {
-  display: block;
-  padding: 50px 6%;
+  display: flex;
+  padding: 30px 6%;
   width: 100%;
 }
 
@@ -353,9 +367,18 @@ textarea {
 .img-responsive {
   display: block;
   max-width: 100%;
-  height: 80px;
+  height: 50px;
 }
 
 .development-img {
   box-sizing: border-box;
+}
+.container-fluid {
+  text-align: center;
+}
+
+.overview {
+  padding-left: 200px;
+  text-align: left;
+  max-width: 700px;
 }

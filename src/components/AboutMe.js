@@ -21,7 +21,7 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className='row'>
+        <div className='overview'>
           <div className='about-general-description '>
             <div className='col-sm-8 col-md-8 '>
               <h2>General Overview</h2>
@@ -62,12 +62,9 @@ const AboutMe = () => {
         <div className='row'>
           <div className='about-option-buttons'>
             <div className='col-sm-2 col-md-2'>
-              <p
-                onClick={() => navigation("#about")}
-                className='btn btn-default btn-black-border'
-              >
+              <a href='#' className='btn btn-default btn-black-border'>
                 Contact
-              </p>
+              </a>
             </div>
           </div>
         </div>

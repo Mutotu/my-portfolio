@@ -19,21 +19,15 @@ const Hello = () => {
         <div className='row text-center'>
           <div className='banner-buttons'>
             <div className='col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5'>
-              <p
-                className='btn btn-default btn-border'
-                onClick={() => navigation("#about")}
-              >
+              <a class='btn btn-default btn-border' href='#about'>
                 Info
-              </p>
+              </a>
             </div>
 
             <div className='col-sm-1 col-md-1'>
-              <p
-                className='btn btn-default btn-border'
-                onClick={() => navigation("#projects")}
-              >
+              <a class='btn btn-default btn-border' href='#projects'>
                 Portfolio
-              </p>
+              </a>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import { Row, Col } from "react-bootstrap";
 
 const PPCard = (props) => {
   return (
-    <div className='text-center'>
+    <div className={`${props.url}`}>
       <h3>{props.title}</h3>
       <p>{props.story}</p>
 
